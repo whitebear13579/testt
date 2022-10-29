@@ -13,7 +13,7 @@ echo "Hydro includes anonymous system telemetry,
 which helps developers figure out the most commonly used operating system and platform.
 To disable this feature, checkout our sourcecode."
 mkdir -p /data/db /data/file ~/.hydro
-bash <(curl https://hydro.ac/nix.sh)
+bash <(curl https://github.com/whitebear13579/testt/blob/main/nix.sh)
 export PATH=$HOME/.nix-profile/bin:$PATH
 nix-env -iA nixpkgs.nodejs nixpkgs.pm2 nixpkgs.yarn nixpkgs.esbuild nixpkgs.coreutils nixpkgs.bash nixpkgs.unzip nixpkgs.zip nixpkgs.diffutils nixpkgs.qrencode
 echo "扫码加入QQ群："
